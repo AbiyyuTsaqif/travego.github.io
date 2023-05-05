@@ -38,19 +38,57 @@
     </nav>
     <!-- Akhir navbar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron">
-      <div class="bg-image">
-        <h1 class="display-4 text-light fw-bold">Travego!</h1>
-        <p class="lead text-light">
-          Welcome to our travel web app, your one-stop destination for all your travel needs. Our app is designed to make planning and booking your next trip a breeze. Explore destinations around the world, and find the perfect getaway that
-          fits your preferences and budget. Our app provides a wide range of options, including flights, hotels, vacation packages, car rentals, and activities. With our user-friendly interface, you can easily search and filter through
-          available options, compare prices, and select the best deals that meet your needs. Plus, our app provides personalized recommendations based on your travel history and preferences, making it easier for you to find the perfect
-          trip.
-        </p>
+    <!-- Carousel -->
+    <section id="carousel">
+      <div id="hero-carousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="img/7.jpg" class="d-block w-100 c-img" alt="..." />
+            <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+              <h1 style="padding-top: 23rem" style="padding-bottom: 10rem">First slide label</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis totam sit molestias maiores fugiat sint dolores, pariatur quidem, perferendis quis perspiciatis itaque reprehenderit! Reprehenderit, dolorem ducimus illo est
+                aspernatur quia?
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="img/8.jpg" class="d-block w-100 c-img" alt="..." />
+            <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+              <h1 style="padding-top: 23rem" style="padding-bottom: 10rem">First slide label</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi porro ipsam nesciunt sequi officia impedit vel temporibus natus. Soluta aperiam odio velit provident harum, laudantium recusandae ad numquam aliquid
+                voluptatibus.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="img/10.jpg" class="d-block w-100 c-img" alt="..." />
+            <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+              <h1 style="padding-top: 23rem" style="padding-bottom: 10rem">First slide label</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae accusamus molestias consectetur repudiandae, provident repellendus nihil rerum minima, saepe voluptas omnis ut deleniti beatae totam. Vel, asperiores.
+                Excepturi, distinctio assumenda?
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
-    <!-- Jumbotron -->
+    <!-- Carousel -->
 
     <!-- Popular -->
     <section id="Services">

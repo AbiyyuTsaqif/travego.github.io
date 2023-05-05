@@ -36,6 +36,22 @@
   font-family: "poppins", sans-serif;
 }
 
+#carousel {
+  padding-left: 0%;
+  padding-right: 0%;
+  font-family: "poppins", sans-serif;
+}
+
+#carousel .c-item {
+  height: 1000px;
+}
+
+#carousel .c-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 #Footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
