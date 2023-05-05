@@ -1,0 +1,45 @@
+.jumbotron {
+  padding: 24rem 4rem;
+  background-image: url("img/ahegao.jpg");
+  font-family: "poppins", sans-serif;
+}
+
+#Services {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  background-color: #364a64;
+  min-height: 500;
+  font-family: "poppins", sans-serif;
+}
+
+#About {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  background-color: #01423b;
+  min-height: 200;
+  font-family: "poppins", sans-serif;
+}
+
+#Services .card {
+  transition: all 0.3s;
+}
+
+#Services .card:hover {
+  transform: scale(1.05);
+}
+
+#Contact {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #364a64;
+  min-height: 200;
+  font-family: "poppins", sans-serif;
+}
+
+#Footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 4rem;
+  min-height: 200;
+  background-color: #027a6e;
+}
