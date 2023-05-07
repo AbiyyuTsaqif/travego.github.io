@@ -59,3 +59,17 @@
   min-height: 200;
   background-color: #027a6e;
 }
+
+#slider {
+  background-color: #01423b;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.slider-card {
+  transition: all 0.4s;
+}
+
+.slider-card:hover {
+  transform: scale(1.07);
+}
